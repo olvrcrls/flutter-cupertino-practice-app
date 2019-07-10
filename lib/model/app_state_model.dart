@@ -67,7 +67,7 @@ class AppStateModel extends Foundation.ChangeNotifier {
   List<Product> search(String searchTerms) {
     return getProducts().where((product) {
       return product.name.toLowerCase().contains(searchTerms.toLowerCase());
-    });
+    }).toList();
   }
   // Adds a product to the cart.
   void addProductToCart(int productId) {
