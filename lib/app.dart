@@ -2,7 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:cupertino/styles.dart';
 import 'package:cupertino/view/product_list_tab.dart';
 import 'package:cupertino/view/search_tab.dart';
-import 'package:cupertino/view/shopping_cart.dart';
+import 'package:cupertino/view/shopping_cart_tab.dart';
 
 
 class CupertinoStoreApp extends StatelessWidget {
