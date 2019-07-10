@@ -29,6 +29,10 @@ abstract class Styles {
     fontWeight: FontWeight.normal,
   );
 
+  static const TextStyle deliveryTime = TextStyle(
+    color: CupertinoColors.inactiveGray,
+  );
+
   static const TextStyle deliveryTimeLabel = TextStyle(
     color: Color(0xFFC2C2C2),
     fontWeight: FontWeight.w300
