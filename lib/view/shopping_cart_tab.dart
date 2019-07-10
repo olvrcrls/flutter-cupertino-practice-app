@@ -24,7 +24,7 @@ class _ShoppingCartTabState extends State<ShoppingCartTab> {
   Widget _buildNameField() {
     return CupertinoTextField(
       prefix: const Icon(CupertinoIcons.person_solid,
-          color: CupertinoColors.lightBackgroundGray, size: 28),
+      color: CupertinoColors.lightBackgroundGray, size: 28),
       padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 12),
       clearButtonMode: OverlayVisibilityMode.editing,
       textCapitalization: TextCapitalization.words,
